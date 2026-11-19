@@ -2,391 +2,713 @@
  "game": "Grand Theft Auto VI",
  "platform": "PlayStation 5",
  "list": "the official 55 trophies, 2026-11-18",
+ "guide_name": "Leonida Ledger — GTA VI Trophy Guide & Tracker",
+ "about": "Names, descriptions and grades below are the official PlayStation 5 list exactly as published. The guide text, kind, phase and missable flags are this guide's own work, derived from those official descriptions and labelled general series knowledge; every trophy names its sources.",
+ "sources_key": "Official list = the official PlayStation 5 trophy list (name, description, grade) as carried in this app's data, cross-checked against the Exophase and PSNProfiles listings of the same list before this guide was written. Counts (42 range challenges, 250 stunts, 52 areas and the like) are the totals the official list's own data carries. Strategy is written for this guide from general Grand Theft Auto series knowledge and is labelled as such.",
  "trophies": [
   {
    "id": 1,
    "name": "Vice Got a Price!",
    "description": "Congratulations! You're a Leonida Legend.",
    "grade": "platinum",
-   "guide": "Earn the other 54 trophies."
+   "hidden": false,
+   "kind": "platinum",
+   "phase": "Platinum",
+   "missable": false,
+   "guide": "The platinum, awarded automatically the moment the other 54 trophies are all earned — there is nothing separate to do for it. Work the roadmap in this guide from the top: story first with the four missable moments watched for, then strands and activities, then the counted grinds, and finish with A Long Road (100% completion), which is the last long pole for most players. If the counter sits at 54 of 55 for a while, the tracker in this app shows exactly which grade is still missing.",
+   "sources": "Official list (name, description, grade); roadmap order is this guide's own, built from the official descriptions."
   },
   {
    "id": 2,
    "name": "Just Like Paradise",
    "description": "Complete Gone Fishing.",
    "grade": "bronze",
-   "guide": "Finish the opening mission, Gone Fishing."
+   "hidden": true,
+   "kind": "story",
+   "phase": "Story — Opening",
+   "missable": false,
+   "guide": "Earned for finishing Gone Fishing, the opening mission of the story. Play from a new game and follow the on-screen prompts; the trophy pops at the mission's end card, before free roam opens up. It cannot be missed on a normal playthrough because the campaign cannot advance past it — if you are starting a fresh save for the platinum, this is the first trophy you will earn.",
+   "sources": "Official list (name, description, grade); mission placement from the description's wording and general series knowledge of how GTA campaigns open."
   },
   {
    "id": 3,
    "name": "Paradise Lost",
    "description": "Complete Chapter 1.",
    "grade": "bronze",
-   "guide": "Finish Chapter 1."
+   "hidden": true,
+   "kind": "story",
+   "phase": "Story — Chapter 1",
+   "missable": false,
+   "guide": "Finish every mission filed under Chapter 1 of the story. Chapters are the campaign's own act structure, so this pops as the chapter's final mission ends; keep playing the marked story missions and ignore side content until it does. Nothing inside a chapter is one-chance per the official descriptions, so a story-first run earns this on the way to everything else.",
+   "sources": "Official list (name, description, grade); chapter structure read from the official descriptions of the six chapter/finale trophies."
   },
   {
    "id": 4,
    "name": "T**s Ass Drug Money",
    "description": "Complete Chapter 2.",
    "grade": "bronze",
-   "guide": "Finish Chapter 2."
+   "hidden": true,
+   "kind": "story",
+   "phase": "Story — Chapter 2",
+   "missable": false,
+   "guide": "Complete Chapter 2 of the campaign. The name is censored on PlayStation itself — that spelling is official, not a typo in this guide. As with Chapter 1, simply keep clearing the story markers; the trophy lands when the chapter closes. By this point both protagonists' routines are established, so it is a good moment to start the collectible habits (cards, meditation spots) that later trophies count.",
+   "sources": "Official list (name, description, grade — including its censored spelling, noted in the competition's own trophy list notes)."
   },
   {
    "id": 5,
    "name": "Vice City, Baby!",
    "description": "Complete Chapter 3.",
    "grade": "bronze",
-   "guide": "Finish Chapter 3."
+   "hidden": true,
+   "kind": "story",
+   "phase": "Story — Chapter 3",
+   "missable": false,
+   "guide": "Complete Chapter 3. The middle act of the story: by now the named set-piece missions (The Cartel Heist, VCIA Takedown and their neighbours in this list) sit in this stretch of the campaign, and two of this guide's four missable moments are tied to story set-pieces, so keep a manual save at each chapter start as insurance. The trophy itself is a straight completion reward and pops at the chapter's end.",
+   "sources": "Official list (name, description, grade); missable reasoning is this guide's own, from the set-piece wording of the official descriptions."
   },
   {
    "id": 6,
    "name": "Top Of The World, Ma",
    "description": "Complete Chapter 4.",
    "grade": "bronze",
-   "guide": "Finish Chapter 4."
+   "hidden": true,
+   "kind": "story",
+   "phase": "Story — Chapter 4",
+   "missable": false,
+   "guide": "Complete Chapter 4, the last full chapter before the finale. If you have been following the roadmap, most strand-givers (Andy, Kenton, Billy, Randy, Tyrone) are active by now — finishing their strands before the finale keeps the endgame clean-up short. The trophy pops when the chapter's last mission resolves.",
+   "sources": "Official list (name, description, grade); strand timing is general series knowledge, labelled as such."
   },
   {
    "id": 7,
    "name": "You Gotta Know When to Get Off",
    "description": "Complete the final mission.",
    "grade": "gold",
-   "guide": "Finish the final mission (gold)."
+   "hidden": true,
+   "kind": "story",
+   "phase": "Story — Finale",
+   "missable": false,
+   "guide": "The gold for finishing the campaign's final mission. Before you start it, spend your money and finish any strand you care about: finales in this series can lock the world state for their duration, and Treat Yo Self and Little Boxes are easier with a full bank account. After the credits the game returns you to free roam for the 100% push, so nothing in the open-world list is lost by finishing the story first.",
+   "sources": "Official list (name, description, grade); endgame behaviour is general series knowledge, labelled as such."
   },
   {
    "id": 8,
    "name": "Trust",
    "description": "Complete Breakfast Run.",
    "grade": "bronze",
-   "guide": "Finish the mission Breakfast Run."
+   "hidden": true,
+   "kind": "story",
+   "phase": "Story — Named missions",
+   "missable": false,
+   "guide": "Finish the story mission Breakfast Run, an early errand mission that introduces the partner dynamic the two leads share. It is a short, scripted drive-and-deliver style mission per its name; follow the markers and it completes in a few minutes. Like the other named-mission trophies, it pops on the mission-complete screen and cannot be skipped by campaign progress.",
+   "sources": "Official list (name, description, grade); mission character inferred from its name and labelled general series knowledge."
   },
   {
    "id": 9,
    "name": "Break the Bank",
    "description": "Complete The Cartel Heist.",
    "grade": "bronze",
-   "guide": "Finish the mission The Cartel Heist."
+   "hidden": true,
+   "kind": "story",
+   "phase": "Story — Named missions",
+   "missable": false,
+   "guide": "Complete The Cartel Heist, one of the campaign's headline set-pieces. Heists in this series reward preparation: go in with full health, armour if the game offers it, and a fast car staged for the escape rather than relying on what is parked nearby. The trophy is for completion, not for a clean or undetected run, so a loud finish still counts.",
+   "sources": "Official list (name, description, grade); preparation advice is general series knowledge, labelled as such."
   },
   {
    "id": 10,
    "name": "Family Matters",
    "description": "Complete Child's Play.",
    "grade": "bronze",
-   "guide": "Finish the mission Child's Play."
+   "hidden": true,
+   "kind": "story",
+   "phase": "Story — Named missions",
+   "missable": false,
+   "guide": "Finish the story mission Child's Play. It sits among the mid-campaign named missions in the official list's order, between the heist and the media storyline. Nothing in its description suggests a performance condition, so play it straight through; the trophy pops at mission end like the other named-mission bronzes.",
+   "sources": "Official list (name, description, grade); placement read from the official list's own ordering."
   },
   {
    "id": 11,
    "name": "DWNFALL",
    "description": "Complete Headliners.",
    "grade": "bronze",
-   "guide": "Finish the mission Headliners."
+   "hidden": true,
+   "kind": "story",
+   "phase": "Story — Named missions",
+   "missable": false,
+   "guide": "Complete Headliners, the campaign's media-storyline mission. Expect a mission built around publicity and cameras rather than a straight shootout, per the name; follow the objectives and protect whoever the mission puts in your charge. Completion is the only condition the official description states.",
+   "sources": "Official list (name, description, grade); mission flavour inferred from the name and labelled as such."
   },
   {
    "id": 12,
    "name": "Hi-Jacked",
    "description": "Complete VCIA Takedown.",
    "grade": "bronze",
-   "guide": "Finish the mission VCIA Takedown."
+   "hidden": true,
+   "kind": "story",
+   "phase": "Story — Named missions",
+   "missable": false,
+   "guide": "Finish VCIA Takedown, the airport storyline mission — VCIA is the airport the descriptions return to twice (see Catch Me If You Can). While you are on the airfield for this mission, that second trophy's 'unscheduled departure' moment belongs to this same location and storyline, so read its guide before you play this one and you can earn both in the same stretch of the campaign.",
+   "sources": "Official list (name, description, grade); the pairing with Catch Me If You Can is this guide's own reading of the two official descriptions sharing the VCIA location."
   },
   {
    "id": 13,
    "name": "Snow Storm",
    "description": "Complete Operation Savage Glory.",
    "grade": "bronze",
-   "guide": "Finish the mission Operation Savage Glory."
+   "hidden": true,
+   "kind": "story",
+   "phase": "Story — Named missions",
+   "missable": false,
+   "guide": "Complete Operation Savage Glory, the last of the named story missions in the official list's order before the 100% gold. 'Operation' framing suggests a planned assault-style mission; bring your best weapons and expect a wanted-level escape afterwards. Completion only — no medal or stealth condition is stated in the official description.",
+   "sources": "Official list (name, description, grade); mission character inferred from the name and labelled general series knowledge."
   },
   {
    "id": 14,
    "name": "A Long Road",
    "description": "Attain 100% Completion.",
    "grade": "gold",
-   "guide": "Reach 100% completion (gold)."
+   "hidden": false,
+   "kind": "completion",
+   "phase": "Completion — 100%",
+   "missable": false,
+   "target": 100,
+   "unit": "% completion",
+   "guide": "The second gold, and the platinum's long pole: raise the game's own completion statistic to 100%. In this series that counter is a defined checklist, not literally everything in the game — story missions, strands, hobbies and pastimes, collectibles and a set share of the counted activities. Use this tracker as the mirror of that checklist: everything flagged 'counts toward 100%' in your remaining list is a candidate, and the in-game stats page is the referee. Leave it last in the roadmap; most of it fills in while you earn the other trophies, and the tracker shows what is left.",
+   "sources": "Official list (name, description, grade); how the completion counter behaves is general series knowledge, labelled as such."
   },
   {
    "id": 15,
    "name": "Cunning Stunts",
    "description": "Complete 250 Stunts.",
    "grade": "silver",
-   "guide": "Pull off 250 stunts (silver)."
+   "hidden": false,
+   "kind": "activities",
+   "phase": "Mastery — Stunts",
+   "missable": false,
+   "target": 250,
+   "unit": "stunts",
+   "guide": "Complete 250 stunts — the game's stunt jumps and stunt events, counted across the whole map. This is a marathon, not a sprint: clear the stunts in each area while you are there for story or collectibles instead of leaving all 250 for the end. A stunt only counts when it is completed (landed cleanly), so repeat a failed jump on the spot rather than driving off. The official count is 250, so expect this to be one of the last silvers to land.",
+   "sources": "Official list (name, description, grade, and the count of 250 in its data); pacing advice is this guide's own."
   },
   {
    "id": 16,
    "name": "Master of None",
    "description": "Try each type of activity once.",
    "grade": "bronze",
-   "guide": "Try all 9 activity types once."
+   "hidden": false,
+   "kind": "activities",
+   "phase": "Open world — Activities",
+   "missable": false,
+   "target": 9,
+   "unit": "activity types",
+   "guide": "Try each type of activity once — the official data counts 9 activity types. You do not need to win or finish most of them, just start each one once: a race, a drone race, a fishing challenge, an arcade game, a meditation spot, a hunt, a range challenge and their kin each tick a different box. Do this early: it is the cheapest bronze on the list and it teaches you which activities you enjoy before the grind trophies ask for hundreds of them.",
+   "sources": "Official list (name, description, grade, and the count of 9 activity types in its data)."
   },
   {
    "id": 17,
    "name": "The Shootist",
    "description": "Earn a gold medal in all Shooting Range challenges.",
    "grade": "silver",
-   "guide": "Gold all 42 Shooting Range challenges (silver)."
+   "hidden": false,
+   "kind": "activities",
+   "phase": "Mastery — Shooting Range",
+   "missable": false,
+   "target": 42,
+   "unit": "range challenges",
+   "guide": "Gold-medal all 42 Shooting Range challenges — the count is in the official list's own data. Learn each range's target pattern at bronze pace first, then chase gold: accuracy streaks and not wasting the reload windows are what the medal thresholds reward in this series. If one challenge walls you, move on and come back; the medal is per-challenge, so 41 golds still stand while you practise the last one. A strong candidate for the final silver most players earn.",
+   "sources": "Official list (name, description, grade, and the count of 42 challenges in its data); technique notes are general series knowledge."
   },
   {
    "id": 18,
    "name": "Top Fun",
    "description": "Win a Top Fun Drone Race at every location.",
    "grade": "bronze",
-   "guide": "Win a Top Fun drone race at all 14 locations."
+   "hidden": false,
+   "kind": "activities",
+   "phase": "Mastery — Drone races",
+   "missable": false,
+   "target": 14,
+   "unit": "race locations",
+   "guide": "Win a Top Fun drone race at every location — 14 of them per the official data. Unlike Master of None, these must be wins, so learn each course's line with a practice run first: drone races are lost in the corners, not on the straights. Tick locations off area by area as you explore, and this bronze quietly completes itself alongside The Goodtime State.",
+   "sources": "Official list (name, description, grade, and the count of 14 locations in its data)."
   },
   {
    "id": 19,
    "name": "Earn Cash, Not Kudos",
    "description": "Win 20 different races.",
    "grade": "bronze",
-   "guide": "Win 20 different races."
+   "hidden": false,
+   "kind": "activities",
+   "phase": "Mastery — Races",
+   "missable": false,
+   "target": 20,
+   "unit": "different races won",
+   "guide": "Win 20 different races — re-winning the same race does not add to the count, so keep moving to fresh events on the map. Bring or borrow a competitive car for each class rather than forcing one favourite into every event, and use the tracker habit of clearing races area by area. Twenty distinct wins is a modest total; most players finish this while exploring, long before the stunt and range grinds are done.",
+   "sources": "Official list (name, description, grade, and the count of 20 in its data)."
   },
   {
    "id": 20,
    "name": "Baited My Tackle",
    "description": "Beat Cal in a fishing challenge.",
    "grade": "bronze",
-   "guide": "Beat Cal in a fishing challenge."
+   "hidden": true,
+   "kind": "activities",
+   "phase": "Open world — Fishing",
+   "missable": false,
+   "guide": "Beat Cal, the fishing rival, in a fishing challenge. Find the fishing challenge spots (Cal is a named character, so his challenge unlocks through his strand or his marked spot on the map), learn the catch timing on common fish first, and only then take his challenge on. Fishing challenges score the catch, not the fight — patience on the hook beats fast reeling.",
+   "sources": "Official list (name, description, grade); how fishing challenges score is general series knowledge, labelled as such."
   },
   {
    "id": 21,
    "name": "Stick Fiddler",
    "description": "Complete an arcade game.",
    "grade": "bronze",
-   "guide": "Finish one arcade game."
+   "hidden": false,
+   "kind": "activities",
+   "phase": "Open world — Activities",
+   "missable": false,
+   "guide": "Complete one arcade game, start to finish. Any cabinet in any arcade or bar with a playable machine counts; pick the shortest game on offer if you just want the trophy. 'Complete' is the operative word — starting a game is not enough, you have to reach its end or high-score finish screen. Pairs naturally with Master of None, since an arcade game is one of its nine activity types.",
+   "sources": "Official list (name, description, grade)."
   },
   {
    "id": 22,
    "name": "Road to Rehabilitation",
    "description": "Complete the final mission for Andy.",
    "grade": "bronze",
-   "guide": "Finish Andy's last mission."
+   "hidden": true,
+   "kind": "story",
+   "phase": "Story — Character strands",
+   "missable": false,
+   "guide": "Finish Andy's strand: work through his missions in order as they appear until his final one. Strands unlock in stages as the story advances, so if Andy has gone quiet, push the campaign a chapter and check back. His finale is one of five named strand endings in this list (Andy, Kenton, Billy, Randy, Tyrone), and Strangers & Freaks counts eight strands in total — clear them all and both trophies land together.",
+   "sources": "Official list (name, description, grade, and the 8-strand count carried in Strangers & Freaks' data)."
   },
   {
    "id": 23,
    "name": "This Was No Boat Accident",
    "description": "Complete the final mission for Kenton.",
    "grade": "bronze",
-   "guide": "Finish Kenton's last mission."
+   "hidden": true,
+   "kind": "story",
+   "phase": "Story — Character strands",
+   "missable": false,
+   "guide": "Complete Kenton's final mission. The trophy's name promises something went wrong on the water, so expect his strand to end around boats or the marina. Keep his missions moving whenever his marker is up; strand finales only appear after the earlier jobs in the chain are done, and the chain can stall if you leave a mid-strand mission half-finished.",
+   "sources": "Official list (name, description, grade); the water flavour is read from the trophy's own name and labelled as such."
   },
   {
    "id": 24,
    "name": "The Lone Rider",
    "description": "Complete the final mission for Billy.",
    "grade": "bronze",
-   "guide": "Finish Billy's last mission."
+   "hidden": true,
+   "kind": "story",
+   "phase": "Story — Character strands",
+   "missable": false,
+   "guide": "Finish Billy's strand with his final mission. 'Lone Rider' points at a solo road or biker flavour for his jobs; whatever the vehicle, the pattern matches the other strands: a chain of short missions, then a finale that only unlocks once the chain and enough story progress are both in place. If his finale will not appear, advance the current chapter first.",
+   "sources": "Official list (name, description, grade); flavour read from the trophy's name, labelled as such."
   },
   {
    "id": 25,
    "name": "Strangers & Freaks",
    "description": "Complete 8 mission strands for strangers across the state of Leonida.",
    "grade": "silver",
-   "guide": "Finish 8 stranger strands (silver)."
+   "hidden": true,
+   "kind": "story",
+   "phase": "Story — Character strands",
+   "missable": false,
+   "target": 8,
+   "unit": "stranger strands",
+   "guide": "Complete 8 mission strands for strangers across Leonida. Five of the eight are the named strands with their own trophies (Andy, Kenton, Billy, Randy, Tyrone); the rest are shorter stranger chains found by exploring — question-mark style markers in this series. The silver lands on the eighth strand's finale, so keep a strand active at all times rather than saving them all for the endgame.",
+   "sources": "Official list (name, description, grade, and the count of 8 in its data); the five named strands are the official list's own strand-finale trophies."
   },
   {
    "id": 26,
    "name": "Supply & Demand",
    "description": "Complete the final mission for Randy.",
    "grade": "bronze",
-   "guide": "Finish Randy's last mission."
+   "hidden": true,
+   "kind": "story",
+   "phase": "Story — Character strands",
+   "missable": false,
+   "guide": "Complete Randy's final mission. A supply-and-demand name suggests his strand runs goods around the map — deliveries and pickups where a fast, tough vehicle earns its keep. As with every strand, the finale is gated behind his earlier jobs and some story progress; clear his chain before the campaign finale so it is not competing with the endgame.",
+   "sources": "Official list (name, description, grade); flavour read from the trophy's name, labelled as such."
   },
   {
    "id": 27,
    "name": "Spin On This!",
    "description": "Complete the final mission for Tyrone.",
    "grade": "bronze",
-   "guide": "Finish Tyrone's last mission."
+   "hidden": true,
+   "kind": "story",
+   "phase": "Story — Character strands",
+   "missable": false,
+   "guide": "Finish Tyrone's strand. His is the fifth named strand finale in the official list; with Andy, Kenton, Billy and Randy done, this completes the named set and leaves three shorter strands to find for Strangers & Freaks. Strand finales can be a step up in difficulty from their earlier jobs, so go in healed and armed.",
+   "sources": "Official list (name, description, grade); the five-strand set is the official list's own strand-finale trophies."
   },
   {
    "id": 28,
    "name": "Positive Mental Attitude",
    "description": "Meditate at every spot across Leonida.",
    "grade": "bronze",
-   "guide": "Meditate at all 18 spots."
+   "hidden": false,
+   "kind": "collectible",
+   "phase": "Open world — Collectibles",
+   "missable": false,
+   "target": 18,
+   "unit": "meditation spots",
+   "guide": "Meditate at every meditation spot across Leonida — 18 in total per the official data. These are quiet, scenic points (hilltops, beaches, lookout ends); walk up and use the prompt, no item or payment needed. They are the gentlest collectible on the list: sweep them area by area with the exploration trophy and they double as a tour of the map's best views.",
+   "sources": "Official list (name, description, grade, and the count of 18 spots in its data)."
   },
   {
    "id": 29,
    "name": "Fair Game",
    "description": "Hunt a unique animal for Bret.",
    "grade": "bronze",
-   "guide": "Hunt the unique animal for Bret."
+   "hidden": true,
+   "kind": "activities",
+   "phase": "Open world — Hunting",
+   "missable": false,
+   "guide": "Hunt a unique animal for Bret — a named, one-of-a-kind creature rather than regular wildlife. Take the job from Bret, track the animal in its territory (dawn and dusk are when this series makes rare animals active), and bring it down cleanly. Because the animal is unique, do not spook it off and wander away mid-hunt; if you lose it, return to Bret and restart the hunt rather than searching the whole county.",
+   "sources": "Official list (name, description, grade); hunting behaviour is general series knowledge, labelled as such."
   },
   {
    "id": 30,
    "name": "Don't Touch My Deck",
    "description": "Complete 3 Collectible Card sets.",
    "grade": "silver",
-   "guide": "Complete 3 collectible card sets (silver)."
+   "hidden": false,
+   "kind": "collectible",
+   "phase": "Open world — Collectibles",
+   "missable": false,
+   "target": 3,
+   "unit": "card sets",
+   "guide": "Complete 3 full Collectible Card sets. Cards are hidden pickups scattered over Leonida, grouped into themed sets; a set only counts when every card in it is in your hands, so three finished sets means finishing sets, not just hoovering up loose cards. Work set by set and area by area, and check the in-game collection page to see which set is closest to done before hunting the stragglers. This silver pairs with exploration: most cards sit in the same corners the 52-area trophy sends you to.",
+   "sources": "Official list (name, description, grade, and the count of 3 sets in its data)."
   },
   {
    "id": 31,
    "name": "You WAiNKer!",
    "description": "WAiNK It at 100 locations.",
    "grade": "silver",
-   "guide": "WAiNK It at 100 locations (silver)."
+   "hidden": false,
+   "kind": "collectible",
+   "phase": "Open world — Collectibles",
+   "missable": false,
+   "target": 100,
+   "unit": "WAiNK locations",
+   "guide": "Use WAiNK It at 100 different locations — WAiNK is the in-world service the trophy is named for, and each distinct location counts once. A hundred is a big number, so make it a habit: whenever you arrive somewhere new for story or collectibles, WAiNK It there before you leave. Repeats at the same spot do not advance the counter, and the official total is 100, so this silver rewards map coverage more than anything else.",
+   "sources": "Official list (name, description, grade, and the count of 100 locations in its data)."
   },
   {
    "id": 32,
    "name": "One Last Thing",
    "description": "Complete 50 Challenges.",
    "grade": "bronze",
-   "guide": "Finish 50 challenges."
+   "hidden": false,
+   "kind": "activities",
+   "phase": "Open world — Challenges",
+   "missable": false,
+   "target": 50,
+   "unit": "challenges",
+   "guide": "Complete 50 challenges — the game's rotating and ambient challenge tasks (the list separate from the Shooting Range's 42). Take challenges as they surface during other play instead of hunting them cold: most are short skill or errand tests, and fifty completions accumulate quickly once you stop declining them. If a challenge type keeps failing, skip that instance; the count needs completions, not a perfect record.",
+   "sources": "Official list (name, description, grade, and the count of 50 in its data)."
   },
   {
    "id": 33,
    "name": "Hot Together",
    "description": "Lose a 4 star Wanted Level with your partner and escape the heat.",
    "grade": "bronze",
-   "guide": "Lose a 4-star wanted level with your partner."
+   "hidden": true,
+   "kind": "combat",
+   "phase": "Open world — Partner",
+   "missable": false,
+   "guide": "With your partner beside you, earn a 4-star wanted level and then lose it completely — 'escape the heat' means the stars must drain to zero, not just blink. Raise the level somewhere with an escape plan: near tunnels, alleys, or a vehicle swap, since changing cars out of sight is this series' classic way to break a search. Both conditions are in the description: the partner must be with you, and it must be a full 4 stars that you then lose.",
+   "sources": "Official list (name, description, grade); wanted-system technique is general series knowledge, labelled as such."
   },
   {
    "id": 34,
    "name": "Retail Therapy",
    "description": "Rob 3 shops back-to-back with your partner without losing your Wanted Level.",
    "grade": "bronze",
-   "guide": "Rob 3 shops in a row with your partner, keeping your wanted level."
+   "hidden": true,
+   "kind": "combat",
+   "phase": "Open world — Partner",
+   "missable": false,
+   "target": 3,
+   "unit": "shops in a row",
+   "guide": "Rob 3 shops back-to-back with your partner, keeping your wanted level alive the whole time — if the stars fully drain between shops, the chain breaks. Pick a tight cluster of shops so the drive between them is short, rob the first, and move fast: you want the heat to persist, not escalate out of control. Keep your partner with you for all three; the description requires the pair for the whole run.",
+   "sources": "Official list (name, description, grade); routing advice is this guide's own, from the description's conditions."
   },
   {
    "id": 35,
    "name": "Whip It Good",
    "description": "Discover 100 vehicles.",
    "grade": "bronze",
-   "guide": "Discover 100 vehicles."
+   "hidden": false,
+   "kind": "exploration",
+   "phase": "Open world — Exploration",
+   "missable": false,
+   "target": 100,
+   "unit": "vehicles discovered",
+   "guide": "Discover 100 different vehicles — in this series a vehicle is discovered the first time you get in or properly register it, so variety is everything. Steal broadly: every new model you see parked or passing is a candidate, and rich districts, docks and the airport are dense with distinct models. A hundred sounds like a lot but Leonida's traffic variety does most of the work if you swap cars often instead of living in one favourite.",
+   "sources": "Official list (name, description, grade, and the count of 100 in its data); discovery behaviour is general series knowledge."
   },
   {
    "id": 36,
    "name": "Gunslinger",
    "description": "Take down 5 enemies in a single use of Combat Focus.",
    "grade": "bronze",
-   "guide": "Down 5 enemies in one Combat Focus."
+   "hidden": false,
+   "kind": "combat",
+   "phase": "Mastery — Combat",
+   "missable": false,
+   "target": 5,
+   "unit": "enemies in one Combat Focus",
+   "guide": "Take down 5 enemies inside a single Combat Focus activation — Combat Focus is the game's slow-motion aiming state, so the whole job is preparation: trigger it only when five or more enemies are already in view and in range. Line up a crowded moment (a gang operation or a story ambush), use a weapon with a big magazine, and pre-aim at the group before you activate. If you get four, do not chase the fifth across the map; set up a fresh crowd and try again.",
+   "sources": "Official list (name, description, grade); Combat Focus handling is general series knowledge, labelled as such."
   },
   {
    "id": 37,
    "name": "Catch Me If You Can",
    "description": "Make an unscheduled departure at VCIA.",
    "grade": "bronze",
-   "guide": "Leave VCIA in an unscheduled way."
+   "hidden": true,
+   "kind": "exploration",
+   "phase": "Story — Named missions",
+   "missable": true,
+   "guide": "FLAGGED MISSABLE by this guide: leave VCIA airport in an 'unscheduled departure' — steal an aircraft (or another departing vehicle) and take off outside any scripted flight. The natural window is the VCIA Takedown storyline, when you are already on the airfield with security stirred up; read this guide before playing Hi-Jacked and make your departure during that stretch. If the moment passes, the fallback is to return to the airport in free roam, get onto the tarmac, take a plane and lift off — but because the description ties the act to the airport's own drama, the story window is the surest chance, which is why this guide flags it. The flag is this guide's inference from the description's set-piece wording, not an official label.",
+   "sources": "Official list (name, description, grade); missable flag and the pairing with the VCIA Takedown mission are this guide's own reading of the official descriptions."
   },
   {
    "id": 38,
    "name": "Challenging Tank",
    "description": "Kinda hot in these Rhinos.",
    "grade": "bronze",
-   "guide": "Deal with Rhinos (tanks)."
+   "hidden": false,
+   "kind": "combat",
+   "phase": "Open world — Combat",
+   "missable": false,
+   "guide": "The Rhinos are the army's tanks, and this trophy is about dealing with one — the series' pattern is that Rhinos arrive at the highest wanted levels or guard military ground. Two reliable routes: raise your wanted level until the military rolls out and engage a Rhino on your terms (heavy explosives, distance, and a fast exit), or find where armour is stationed and provoke it there. The description is a joke rather than a checklist, so any genuine Rhino encounter you survive and resolve should be the trigger; if it does not pop on an encounter, escalate to a full military response and destroy or commandeer one.",
+   "sources": "Official list (name, description, grade — its wording is a joke, quoted as published); Rhino behaviour is general series knowledge, labelled as such."
   },
   {
    "id": 39,
    "name": "Sneakthief",
    "description": "Rob a jewelry store without being detected.",
    "grade": "bronze",
-   "guide": "Rob a jewelry store without being seen."
+   "hidden": false,
+   "kind": "combat",
+   "phase": "Mastery — Stealth",
+   "missable": false,
+   "guide": "Rob a jewelry store and get away with nobody detecting the robbery. Go in quiet: no drawn weapon on the door, no shooting, and watch the staff and cameras — in this series a silent smash-and-grab means casing the store first, taking the goods fast, and leaving before an alarm state begins. If you are spotted, do not force it; leave, let things cool down, and try a different store or a quieter hour. Detection is the only condition, so a small, clean haul beats a big, loud one.",
+   "sources": "Official list (name, description, grade); stealth approach is general series knowledge, labelled as such."
   },
   {
    "id": 40,
    "name": "Maximum Withdrawal",
    "description": "Rob 5 Bank Vaults and escape.",
    "grade": "silver",
-   "guide": "Rob 5 bank vaults and escape (silver)."
+   "hidden": false,
+   "kind": "combat",
+   "phase": "Mastery — Heists",
+   "missable": false,
+   "target": 5,
+   "unit": "bank vaults robbed and escaped",
+   "guide": "Rob 5 bank vaults and escape after each one — a vault only counts when you get away, so the escape is half the trophy. Treat each vault like a mini-heist: scout the exit, stage a fast car facing out, and have a wanted-level plan (a swap car or a route through cover) before you go in. Five successful vaults is a silver's worth of work; spread them across the map so you learn several escape neighbourhoods instead of repeating one hot route.",
+   "sources": "Official list (name, description, grade, and the count of 5 vaults in its data)."
   },
   {
    "id": 41,
    "name": "A Classic Blitz Play",
    "description": "Rob an Armored Truck and escape.",
    "grade": "bronze",
-   "guide": "Rob an armored truck and escape."
+   "hidden": false,
+   "kind": "combat",
+   "phase": "Open world — Combat",
+   "missable": false,
+   "guide": "Rob one armoured truck and escape. Armoured trucks run money routes in this series; stop one by blocking or disabling it, deal with its guards, and breach the rear doors (explosives are the classic key). The escape matters as much as the robbery — the truck's alarm brings heat, so have a car ready and a route that breaks line of sight. One successful truck is all the description asks for.",
+   "sources": "Official list (name, description, grade); truck behaviour is general series knowledge, labelled as such."
   },
   {
    "id": 42,
    "name": "The Goodtime State",
    "description": "Explore all of Leonida.",
    "grade": "bronze",
-   "guide": "Explore all 52 areas of Leonida."
+   "hidden": false,
+   "kind": "exploration",
+   "phase": "Open world — Exploration",
+   "missable": false,
+   "target": 52,
+   "unit": "areas of Leonida",
+   "guide": "Explore all of Leonida — the official data counts 52 areas, and an area is explored when you have actually been into it, not just seen it on the map. The holdouts are always the same kinds of places: small islands, the far swamp corners, and interiors at the map's edge. Use the meditation spots, card sets and WAiNK locations as your sweep pattern — they are spread to cover the state, and when their lists are done this trophy is usually a handful of grey corners away.",
+   "sources": "Official list (name, description, grade, and the count of 52 areas in its data)."
   },
   {
    "id": 43,
    "name": "Pest Control",
    "description": "Rob an Illegal Operation belonging to each gang.",
    "grade": "bronze",
-   "guide": "Rob one illegal operation of each of the 9 gangs."
+   "hidden": false,
+   "kind": "combat",
+   "phase": "Mastery — Gang operations",
+   "missable": false,
+   "target": 9,
+   "unit": "gangs robbed",
+   "guide": "Rob an illegal operation belonging to each gang — the official data counts 9 gangs, and it is one operation per gang, not nine robberies anywhere. Keep a note of which gangs you have hit (this tracker cannot know for you); operations sit in each gang's territory, so turf you have never visited means a gang you have never robbed. Go in prepared: an operation is defended, and the robbery only counts once you have taken the goods and got out.",
+   "sources": "Official list (name, description, grade, and the count of 9 gangs in its data)."
   },
   {
    "id": 44,
    "name": "In The Beginning…",
    "description": "Enjoy a cocktail with a view on Ocean Beach.",
    "grade": "bronze",
-   "guide": "Have a cocktail with a view on Ocean Beach."
+   "hidden": true,
+   "kind": "exploration",
+   "phase": "Open world — Moments",
+   "missable": false,
+   "guide": "Have a cocktail at a spot with a view on Ocean Beach — the beachfront strip of Vice City. Find a beachfront bar or drinks stand on the Ocean Beach front, buy or order the cocktail, and take in the view; the trophy is for the moment, not a purchase total. It is one of the list's gentle storybook moments (the title nods at beginnings), so try it early in a session near the beach rather than hunting it at the end. If one stand does not trigger it, try the next one along the front — the description's key ingredients are the cocktail and the Ocean Beach view.",
+   "sources": "Official list (name, description, grade — ellipsis as published)."
   },
   {
    "id": 45,
    "name": "Capital Offense",
    "description": "Smash your way out of a vehicle showroom in classic style.",
    "grade": "bronze",
-   "guide": "Smash out of a vehicle showroom in style."
+   "hidden": true,
+   "kind": "combat",
+   "phase": "Story — Set pieces",
+   "missable": true,
+   "guide": "FLAGGED MISSABLE by this guide: drive a car out through a vehicle showroom's glass frontage 'in classic style' — a set-piece moment, not something showrooms offer on demand. Watch for it during story missions and heists that pass through a dealership or showroom: when a mission puts you in a car inside one, leave through the window, not the door. If you are hunting it in free roam, take a car into a showroom interior if the game lets you and exit through the glass. The flag is this guide's inference from the description's one-off, set-piece wording, not an official label.",
+   "sources": "Official list (name, description, grade); missable flag is this guide's own reading of the official description."
   },
   {
    "id": 46,
    "name": "Let’s Go Bowling",
    "description": "Follow-through at the Kolt & Associates' bowling alley.",
    "grade": "bronze",
-   "guide": "Play bowling at the Kolt & Associates alley."
+   "hidden": false,
+   "kind": "activities",
+   "phase": "Open world — Activities",
+   "missable": false,
+   "guide": "Play at the Kolt & Associates' bowling alley and complete your follow-through — in plain terms, bowl a game (or at least a full turn sequence) at that specific alley. The location is named in the official description, so other alleys will not do: head to Kolt & Associates' lanes, start a game, and play it through rather than quitting mid-frame. It also ticks the bowling box for Master of None if that is still open.",
+   "sources": "Official list (name, description, grade — curly apostrophe in 'Let’s' as published)."
   },
   {
    "id": 47,
    "name": "Personal Best",
    "description": "A partnership with mass appeal.",
    "grade": "bronze",
-   "guide": "A partnership moment with mass appeal."
+   "hidden": true,
+   "kind": "story",
+   "phase": "Story — Moments",
+   "missable": false,
+   "guide": "The description is deliberately vague — 'a partnership with mass appeal' — and trophies worded like this in the official list are story-beats that pop on their own as the two leads' partnership reaches a public high point. Do not grind for it: keep advancing the campaign and the strand missions, and treat it as earned-when-it-happens. If you finish the story without it, revisit the partner activities (Hot Together and Retail Therapy live in the same partnership theme) and the late strands before assuming anything is wrong.",
+   "sources": "Official list (name, description, grade); reading of the vague wording is this guide's own, labelled as interpretation."
   },
   {
    "id": 48,
    "name": "Actions Speak Louder",
    "description": "Choices made (for better or worse).",
    "grade": "bronze",
-   "guide": "Make choices (PSN tracks a count to 500)."
+   "hidden": false,
+   "kind": "misc",
+   "phase": "Completion — Counters",
+   "missable": false,
+   "target": 500,
+   "unit": "choices tracked",
+   "guide": "Make choices — the official list's own data notes that PlayStation tracks a count for this one, up to 500. Choices are the decisions the game puts to you across missions and encounters, so the counter fills by playing, not by finding anything. Five hundred sounds steep, but it counts every small decision as well as the big story ones; a story-first playthrough with strands and activities done will be most of the way there. Check the trophy's progress on the console's trophy card if you want to watch it climb.",
+   "sources": "Official list (name, description, grade, and the tracked count of 500 noted in its data)."
   },
   {
    "id": 49,
    "name": "Bad Luck, I Guess",
    "description": "Second time's the charm.",
    "grade": "bronze",
-   "guide": "Succeed on a second try."
+   "hidden": true,
+   "kind": "misc",
+   "phase": "Open world — Moments",
+   "missable": true,
+   "guide": "FLAGGED MISSABLE (soft) by this guide: succeed at something on the second attempt, after failing it once — 'second time's the charm' is the whole description. The practical reading: fail a discrete attempt (a challenge, a race start, a timed errand) and immediately succeed at the retry, and natural play produces this on its own surprisingly often. It is flagged only softly: a player who somehow never fails anything would have to engineer a failure, so if you are deep into a perfect run, deliberately botch a cheap challenge once and pass the retry. The flag is this guide's inference from the description's wording, not an official label.",
+   "sources": "Official list (name, description, grade); interpretation is this guide's own, labelled as such."
   },
   {
    "id": 50,
    "name": "The Truth Is Out There",
    "description": "What the hell just happened?",
    "grade": "bronze",
-   "guide": "Witness something strange."
+   "hidden": true,
+   "kind": "exploration",
+   "phase": "Open world — Moments",
+   "missable": true,
+   "guide": "FLAGGED MISSABLE (soft) by this guide: witness one of the game's strange, unexplained events — the description is a reaction, not an instruction, which is the signature of this series' mystery encounters (odd lights, odd strangers, things in the swamp at night). You cannot schedule it; you raise your chances by spending time in Leonida's lonely places after dark — the swamps, the keys, the far beaches — and by investigating anything the game frames as wrong. It is flagged softly because a lucky player meets it early and an unlucky one must go looking. The flag is this guide's inference from the description's wording, not an official label.",
+   "sources": "Official list (name, description, grade); interpretation is this guide's own, from the description's wording and general series knowledge of mystery encounters."
   },
   {
    "id": 51,
    "name": "Ten Pin",
    "description": "Bowl 'em over with a melee drive-by.",
    "grade": "bronze",
-   "guide": "Knock someone down with a melee drive-by."
+   "hidden": false,
+   "kind": "combat",
+   "phase": "Open world — Combat",
+   "missable": false,
+   "guide": "Knock a pedestrian down with a melee drive-by — swing a melee weapon from a moving vehicle and connect with someone on foot. Ride as driver or passenger as the game allows, pick a lone pedestrian on a quiet street, and time the swing as you pass at moderate speed: too fast and you overshoot, too slow and it reads as a stop, not a drive-by. One clean connection is the whole trophy; the bowling name is just the joke about the victim's fall.",
+   "sources": "Official list (name, description, grade); technique is general series knowledge, labelled as such."
   },
   {
    "id": 52,
    "name": "Dime on the Dollar",
    "description": "Earn $250,000 laundering Marked Bills through your contacts.",
    "grade": "bronze",
-   "guide": "Launder $250,000 of marked bills."
+   "hidden": false,
+   "kind": "misc",
+   "phase": "Completion — Economy",
+   "missable": false,
+   "target": 250000,
+   "unit": "dollars laundered",
+   "guide": "Launder $250,000 worth of Marked Bills through your contacts. Marked Bills come from scores — robberies and heists pay partly in hot money — and laundering is the contacts system that cleans it at a cut ('a dime on the dollar'). Route every marked bill you earn through your contacts instead of spending around them, and the quarter-million accumulates alongside the heist trophies. This is an economy habit, not an event: set it up early and it finishes itself.",
+   "sources": "Official list (name, description, grade, and the $250,000 figure in the description itself)."
   },
   {
    "id": 53,
    "name": "Treat Yo Self",
    "description": "Spend $100,000 across all shops.",
    "grade": "bronze",
-   "guide": "Spend $100,000 in shops."
+   "hidden": false,
+   "kind": "misc",
+   "phase": "Completion — Economy",
+   "missable": false,
+   "target": 100000,
+   "unit": "dollars spent in shops",
+   "guide": "Spend $100,000 in total across all shops — clothes, weapons, vehicles services, food, everything counts toward the one counter. Do not hoard for it: buy what helps (armour, ammo, outfits the missions want) and the total climbs on its own. If you reach the endgame short of the mark, a deliberate shopping spree with heist money closes the gap in minutes. The description says 'across all shops', so spreading the spending is fine and expected.",
+   "sources": "Official list (name, description, grade, and the $100,000 figure in the description itself)."
   },
   {
    "id": 54,
    "name": "Little Boxes",
    "description": "Purchase all garage properties.",
    "grade": "bronze",
-   "guide": "Buy all 8 garage properties."
+   "hidden": false,
+   "kind": "misc",
+   "phase": "Completion — Properties",
+   "missable": false,
+   "target": 8,
+   "unit": "garage properties",
+   "guide": "Buy all 8 garage properties — the official data counts eight. Garages unlock for purchase as the story and your bank balance grow; buy them as they appear rather than saving for a single spree, because owning them early gives you storage the vehicle trophies quietly benefit from. The last one or two are usually gated behind late-game money, so finish the heists and laundering loop first if a price tag is stopping you.",
+   "sources": "Official list (name, description, grade, and the count of 8 garages in its data)."
   },
   {
    "id": 55,
    "name": "On the Spot",
    "description": "Register 10 vehicles to the Scooter Bros app.",
    "grade": "bronze",
-   "guide": "Register 10 vehicles in the Scooter Bros app."
+   "hidden": false,
+   "kind": "misc",
+   "phase": "Open world — Vehicles",
+   "missable": false,
+   "target": 10,
+   "unit": "vehicles registered",
+   "guide": "Register 10 vehicles to the Scooter Bros app — the in-game app that logs vehicles to you. Registration is the app's own action on a vehicle you have taken; do it with ten different vehicles rather than re-registering a favourite. This pairs with Whip It Good's hundred discoveries: every new model you try is a registration candidate, so register as you discover and both counters climb together.",
+   "sources": "Official list (name, description, grade, and the count of 10 in its data)."
   }
  ]
 }

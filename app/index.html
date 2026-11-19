@@ -3,23 +3,132 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>GTA VI trophy checklist</title>
+<title>Leonida Ledger — GTA VI Trophy Guide &amp; Tracker</title>
+<meta name="description" content="An offline guide and tracker for all 55 Grand Theft Auto VI PlayStation 5 trophies: checklist, roadmap to the platinum, missable flags and a cited guide for every trophy.">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-  <h1>GTA VI trophy checklist</h1>
-  <p id="progress">0 of 55 earned</p>
+<header class="masthead">
+  <div class="masthead-text">
+    <p class="kicker">Grand Theft Auto VI · PlayStation 5 · Offline guide &amp; tracker</p>
+    <h1>Leonida Ledger</h1>
+    <p class="tagline">Every one of the 55 trophies — tracked, roadmapped, and explained in our own words with its sources.</p>
+  </div>
+  <div class="progress-card" aria-label="Overall progress">
+    <div class="progress-ring-wrap">
+      <svg class="progress-ring" viewBox="0 0 84 84" width="84" height="84" role="img" aria-label="Completion ring">
+        <circle class="ring-track" cx="42" cy="42" r="36"></circle>
+        <circle class="ring-fill" id="ringFill" cx="42" cy="42" r="36"></circle>
+      </svg>
+      <div class="ring-label"><span id="progressPct">0%</span></div>
+    </div>
+    <div class="progress-numbers">
+      <p class="big-count"><span id="earnedCount">0</span> <span class="of">of 55 earned</span></p>
+      <ul class="grade-counts">
+        <li><span class="dot dot-platinum"></span>Platinum <b id="countPlatinum">0/1</b></li>
+        <li><span class="dot dot-gold"></span>Gold <b id="countGold">0/2</b></li>
+        <li><span class="dot dot-silver"></span>Silver <b id="countSilver">0/6</b></li>
+        <li><span class="dot dot-bronze"></span>Bronze <b id="countBronze">0/46</b></li>
+      </ul>
+      <p class="points-line">Trophy points <b id="pointsEarned">0</b> of 1,530</p>
+    </div>
+  </div>
 </header>
-<div class="controls">
-  <label>Grade <select id="grade"><option value="all">All</option><option value="platinum">Platinum</option><option value="gold">Gold</option><option value="silver">Silver</option><option value="bronze">Bronze</option></select></label>
-  <button id="export" type="button">Export progress</button>
-  <label class="import">Import progress <input id="import" type="file" accept="application/json"></label>
-</div>
-<table>
-  <thead><tr><th>Earned</th><th>Trophy</th><th>Grade</th><th>How to get it</th></tr></thead>
-  <tbody id="rows"></tbody>
-</table>
+
+<nav class="view-tabs" aria-label="Views">
+  <a href="#/" id="tabTracker" class="tab is-active">Tracker</a>
+  <a href="#/roadmap" id="tabRoadmap" class="tab">Roadmap to the Platinum</a>
+  <a href="#/about" id="tabAbout" class="tab">About &amp; Sources</a>
+</nav>
+
+<main>
+  <!-- ============ TRACKER VIEW ============ -->
+  <section id="viewTracker" class="view">
+    <div class="toolbar" role="search">
+      <div class="toolbar-row">
+        <label class="search-box">
+          <span class="visually-hidden">Search trophies</span>
+          <input id="searchInput" type="search" placeholder="Search 55 trophies — try “heist”, “cards”, “VCIA”…" autocomplete="off">
+        </label>
+        <label class="toggle">
+          <input type="checkbox" id="spoilerToggle">
+          <span>Spoiler shield: hide story trophies until earned</span>
+        </label>
+      </div>
+      <div class="toolbar-row chips-row" aria-label="Filters">
+        <div class="chip-group" id="gradeChips" role="group" aria-label="Filter by grade">
+          <button type="button" class="chip is-on" data-grade="all">All grades</button>
+          <button type="button" class="chip" data-grade="platinum">Platinum</button>
+          <button type="button" class="chip" data-grade="gold">Gold</button>
+          <button type="button" class="chip" data-grade="silver">Silver</button>
+          <button type="button" class="chip" data-grade="bronze">Bronze</button>
+        </div>
+        <div class="chip-group" id="kindChips" role="group" aria-label="Filter by kind"></div>
+      </div>
+      <div class="toolbar-row chips-row">
+        <div class="chip-group" role="group" aria-label="Filter by state">
+          <button type="button" class="chip is-on" id="stateAll">All</button>
+          <button type="button" class="chip" id="stateUnearned">Unearned only</button>
+          <button type="button" class="chip" id="stateEarned">Earned only</button>
+          <button type="button" class="chip chip-warn" id="stateMissable">⚑ Missable only</button>
+        </div>
+        <div class="io-buttons">
+          <button type="button" id="exportBtn" class="btn">Export progress</button>
+          <label class="btn file-btn">Import progress<input id="importInput" type="file" accept="application/json,.json" hidden></label>
+          <button type="button" id="resetBtn" class="btn btn-quiet">Reset</button>
+        </div>
+      </div>
+      <p class="result-line" id="resultLine" role="status"></p>
+    </div>
+
+    <div class="tracker-layout">
+      <ol id="trophyList" class="trophy-list"></ol>
+      <aside id="detailPanel" class="detail-panel" aria-live="polite"></aside>
+    </div>
+  </section>
+
+  <!-- ============ ROADMAP VIEW ============ -->
+  <section id="viewRoadmap" class="view" hidden>
+    <div class="roadmap-head">
+      <h2>Roadmap to the Platinum</h2>
+      <p>Five stages, in order. The order is built from the official descriptions: story structure first (chapters, named missions, strands), the four missable moments watched for while they are available, then the counted open-world work, then the completion counter. Nothing in the official descriptions requires a second playthrough if the four flagged moments are caught.</p>
+    </div>
+    <div class="missable-banner">
+      <h3>⚑ Missable watch — read before you play</h3>
+      <p>Four trophies are flagged missable in this guide, inferred from their official descriptions' one-off, set-piece wording (the flags are ours, not PlayStation's). The full reasoning sits in each trophy's guide:</p>
+      <ul id="missableList"></ul>
+    </div>
+    <div id="roadmapStages"></div>
+  </section>
+
+  <!-- ============ ABOUT VIEW ============ -->
+  <section id="viewAbout" class="view" hidden>
+    <h2>About this guide</h2>
+    <div class="about-grid">
+      <article class="about-card">
+        <h3>What this is</h3>
+        <p>Leonida Ledger is a free, offline trophy guide and tracker for Grand Theft Auto VI on PlayStation 5. It covers all 55 trophies from the official list — 1 platinum, 2 gold, 6 silver, 46 bronze, 28 of them hidden on PlayStation until earned. Your checklist lives in your browser's local storage on this device only; export it to a file to move it or back it up. The app loads nothing from the network and works fully offline.</p>
+      </article>
+      <article class="about-card">
+        <h3>Sources</h3>
+        <p>Trophy names, descriptions and grades are the official list exactly as PlayStation publishes them, cross-checked against the Exophase and PSNProfiles listings of the same list (the two agree on every name, description and grade). Counts the guides cite — 42 Shooting Range challenges, 250 stunts, 52 areas of Leonida, 9 gangs, 8 garage properties, 18 meditation spots, 14 drone-race locations, 100 WAiNK locations, 500 tracked choices — are the totals carried in that official list's own data. Everything else in the guide text is our own strategy writing, built from the official descriptions plus general Grand Theft Auto series knowledge, and is labelled as such wherever it appears. No text here is copied from any other guide.</p>
+      </article>
+      <article class="about-card">
+        <h3>How the flags work</h3>
+        <p><b>Missable ⚑</b> flags are this guide's inferences from the official descriptions — a description that describes a single set-piece moment gets flagged, with the reasoning written out in that trophy's guide. <b>Kind</b> and <b>phase</b> are our own organisation of the list (story, collectible, activities, combat, exploration and so on), derived from what each description actually asks for. <b>Spoiler shield</b> hides the names and descriptions of unearned story trophies, the way PlayStation hides its 28 hidden trophies.</p>
+      </article>
+      <article class="about-card">
+        <h3>Not affiliated</h3>
+        <p>A fan-made guide for a make.fun competition entry. It shows no Rockstar Games logo, artwork or game screenshots; the look — a Leonida sunset over a CSS skyline — is drawn with stylesheets alone. Grand Theft Auto and GTA are trademarks of Take-Two Interactive; this guide is not affiliated with or endorsed by Rockstar Games or Take-Two Interactive.</p>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer class="colophon">
+  <p>Leonida Ledger · 55 trophies · progress is stored only in this browser · <a href="#/about">sources &amp; method</a></p>
+</footer>
+
 <script type="module" src="app.js"></script>
 </body>
 </html>
